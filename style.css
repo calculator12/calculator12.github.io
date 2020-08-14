@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(1,0,2,1.3);
+    text-align: center;
+    margin: 0;
+    padding-top : 1rem;
+
+}
+h2{
+    color: wheat;
+}
+#button{
+    width: 50px;
+    height: 30px;
+    margin: auto;
+    transition: 0.5s;
+}
+#button:hover{
+    color: white;
+    background-color: teal;
+    size: 2rem;
+    font-size: larger;
+    
+
+
+
+
+
+
+}
+
+.calculator-form{
+    text-align: center;
+    border: 3px solid white;
+    width: 300px;
+    align-content: center;
+}
+
+
+#clear{
+    width: 155px;
+
+    
+}
+
+#point{
+    width: 155px;
+}
+h1{
+    color: white;
+}
+
+.ani:after{
+    content: '';
+    animation: saroj 13s infinite linear;
+    color: blue;
+    align-content: center;
+    background-color: white;
+  }
+  @keyframes saroj{
+    0%{ content: "S";}
+    8%{ content: "SA";}
+    16%{ content: "SAR";}
+    24%{ content: "SARO";}
+    32%{ content: "SAROJ";}
+    40%{ content: "SAROJ S";}
+    48%{ content: "SAROJ SH";}
+    56%{ content: "SAROJ SHR";}
+    64%{ content: "SAROJ SHRE";}
+    72%{ content: "SAROJ SHRES";}
+    80%{ content: "SAROJ SHREST";}
+    88%{ content: "SAROJ SHRESTH";}
+    96%{ content: "SAROJ SHRESTHA";}
+    100%{ content: "SAROJ SHRESTHA";}
+    
+    
+
+    
+  }
+  marquee{
+      color: black;
+      background-color: dodgerblue;
+      font-size: larger;
+  }
